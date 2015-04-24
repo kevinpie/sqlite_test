@@ -1,12 +1,13 @@
 import sqlite3
 
-conn = sqlite3.connect("new.db")
+with sqlite3.connect("new.db") as connection:
+    c = connection.cursor()
 
-cursor = conn.cursor()
+    cities = [
+        ('Boston', 'MA', 600000),
+        ('Chicago', 'IL', 2700000),
+        ('Houston', 'TX', 2100000),
+        ('Phoenix', 'AZ', 1500000)
+    ]
 
-cursor.execute("""CREATE TABLE Population
-              (city TEXT, state TEXT, population INT)
-              """)
-
-
-conn.close()
+    c.executemany('INSERT INTO POPULATION VALUES(?, ?, ?)', cities)
