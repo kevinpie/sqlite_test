@@ -30,7 +30,7 @@
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="new" />
+        <option name="myItemId" value="newnum" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
@@ -38,8 +38,14 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="Population" />
+        <option name="myItemId" value="numbers" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
   </component>
@@ -49,23 +55,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sqla.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sqla.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqla.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5882353" vertical-offset="0" max-vertical-offset="561">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
-                <marker date="1429908790000" expanded="true" signature="580:618" placeholder="INSERT INTO ..." />
-                <marker date="1429908790000" expanded="true" signature="580:628" placeholder="INSERT INTO ..." />
-                <marker date="1429908790000" expanded="true" signature="645:696" placeholder="SELECT * FRO..POPULATION..." />
-                <marker date="1429908790000" expanded="true" signature="645:698" placeholder="SELECT * FRO..POPULATION..." />
+                <marker date="1429910010000" expanded="true" signature="575:606" placeholder="DROP TABLE i..." />
+                <marker date="1429910010000" expanded="true" signature="627:689" placeholder="CREATE TABLE..population..." />
+                <marker date="1429910010000" expanded="true" signature="627:690" placeholder="CREATE TABLE..population..." />
+                <marker date="1429910010000" expanded="true" signature="627:907" placeholder="CREATE TABLE..population..." />
+                <marker date="1429910010000" expanded="true" signature="715:753" placeholder="INSERT INTO ..." />
+                <marker date="1429910010000" expanded="true" signature="715:763" placeholder="INSERT INTO ..." />
+                <marker date="1429910010000" expanded="true" signature="780:844" placeholder="SELECT * FRO..POPULATION..." />
+                <marker date="1429910010000" expanded="true" signature="780:846" placeholder="SELECT * FRO..POPULATION..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Population" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/1d516f4a/3a718cb8-e814-4828-8a34-d90e32f3a930/..Population">
+      <file leaf-file-name="assignment3a.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment3a.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1429943435000" expanded="true" signature="161:189" placeholder="DROP TABLE i..." />
+                <marker date="1429943435000" expanded="true" signature="236:265" placeholder="CREATE TABLE..numbers..." />
+                <marker date="1429943435000" expanded="true" signature="353:382" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assignment3b.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignment3b.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.53475934" vertical-offset="0" max-vertical-offset="615">
+              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+              <folding>
+                <marker date="1429944302000" expanded="true" signature="424:451" placeholder="SELECT {}(nu..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numbers" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/1d516f4a/e1d2a7ea-834a-49e2-9795-c1de8311e20b/..numbers">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -88,6 +125,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/sqla.py" />
+        <option value="$PROJECT_DIR$/assignment3a.py" />
+        <option value="$PROJECT_DIR$/assignment3b.py" />
       </list>
     </option>
   </component>
@@ -361,10 +400,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1280" height="997" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32992035" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32992035" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992035" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -444,15 +483,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/1d516f4a/e1d2a7ea-834a-49e2-9795-c1de8311e20b/..numbers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sqla.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5882353" vertical-offset="0" max-vertical-offset="561">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
-            <marker date="1429908790000" expanded="true" signature="580:618" placeholder="INSERT INTO ..." />
-            <marker date="1429908790000" expanded="true" signature="580:628" placeholder="INSERT INTO ..." />
-            <marker date="1429908790000" expanded="true" signature="645:696" placeholder="SELECT * FRO..POPULATION..." />
-            <marker date="1429908790000" expanded="true" signature="645:698" placeholder="SELECT * FRO..POPULATION..." />
+            <marker date="1429910010000" expanded="true" signature="575:606" placeholder="DROP TABLE i..." />
+            <marker date="1429910010000" expanded="true" signature="627:689" placeholder="CREATE TABLE..population..." />
+            <marker date="1429910010000" expanded="true" signature="627:690" placeholder="CREATE TABLE..population..." />
+            <marker date="1429910010000" expanded="true" signature="627:907" placeholder="CREATE TABLE..population..." />
+            <marker date="1429910010000" expanded="true" signature="715:753" placeholder="INSERT INTO ..." />
+            <marker date="1429910010000" expanded="true" signature="715:763" placeholder="INSERT INTO ..." />
+            <marker date="1429910010000" expanded="true" signature="780:844" placeholder="SELECT * FRO..POPULATION..." />
+            <marker date="1429910010000" expanded="true" signature="780:846" placeholder="SELECT * FRO..POPULATION..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1429943435000" expanded="true" signature="161:189" placeholder="DROP TABLE i..." />
+            <marker date="1429943435000" expanded="true" signature="236:265" placeholder="CREATE TABLE..numbers..." />
+            <marker date="1429943435000" expanded="true" signature="353:382" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53475934" vertical-offset="0" max-vertical-offset="615">
+          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+          <folding>
+            <marker date="1429944302000" expanded="true" signature="424:451" placeholder="SELECT {}(nu..." />
           </folding>
         </state>
       </provider>

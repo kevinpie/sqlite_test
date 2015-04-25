@@ -17,12 +17,15 @@ with sqlite3.connect("new.db") as connection:
         ('Austin', 'TX', 800000),
         ('Detroit', 'MI', 700000)
     ]
+    c.execute("DROP TABLE if EXISTS Population")
+
+    c.execute("""CREATE TABLE population (city TEXT, state TEXT, population INT)""")
 
     c.executemany("INSERT INTO Population VALUES(?, ?, ?)", cities)
 
-    c.execute("SELECT * FROM Population WHERE Population > 1000000")
+    c.execute("SELECT avg(population) FROM Population WHERE Population > 100000")
 
     rows = c.fetchall()
 
     for r in rows:
-        print r[0], r[1], r[2]
+        print r
